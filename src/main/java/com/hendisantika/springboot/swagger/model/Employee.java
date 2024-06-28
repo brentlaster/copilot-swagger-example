@@ -14,8 +14,8 @@ import org.joda.time.DateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
-    private Integer studentId;
+public class Employee {
+    private Integer employeeId;
     private Address address;
     private String firstName;
     private String middleName;
@@ -29,8 +29,8 @@ public class Student {
     private String nationalIdentityCardNumber;
     private String nationalIdentificationNumber;
 
-    public Student(int studentId, Person p) {
-        this.studentId = studentId;
+    public Employee(int employeeId, Person p) {
+        this.employeeId = employeeId;
         this.nationalIdentityCardNumber = p.nationalIdentificationNumber();
         this.address = p.getAddress();
         this.firstName = p.firstName();

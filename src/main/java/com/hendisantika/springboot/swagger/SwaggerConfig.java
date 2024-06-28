@@ -27,9 +27,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         ApiInfo apiInfo = new ApiInfo(
-                "StudentSearchApplication",
-                "An application to search Student from a Student repository by studentId",
-                "StudentSearchApplication v1",
+                "EmployeeSearchApplication",
+                "An application to search Employee from a Employee repository by employeeId",
+                "EmployeeSearchApplication v1",
                 "Terms of service",
                 "hendisantika@gmail.com",
                 "License of API",
