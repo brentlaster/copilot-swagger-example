@@ -1,4 +1,4 @@
-package com.hendisantika.springboot.swagger;
+package com.techupskills.springboot.swagger;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
